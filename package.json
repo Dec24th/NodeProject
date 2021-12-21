@@ -1,0 +1,16 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "Node Project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "Allan Acosta",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
