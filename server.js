@@ -14,19 +14,23 @@ const server = http
                 path += 'index.html';
                 res.statusCode = 200
                 break;
-            case '/photos':
-                path += 'photos.html';
+            case '/index.html':
+                path += '/index.html';
                 res.statusCode = 200
                 break;
-            case '/articles':
+            case '/photos.html':
+                path += '/photos.html';
+                res.statusCode = 200
+                break;
+            case '/articles.html':
                 path += 'articles.html';
                 res.statusCode = 200
                 break;
             case '/artist':
-                path += 'artist.html';
+                path += '/artist.html';
                 res.statusCode = 200
             default:
-                path += '404.html'
+                path += '/404.html'
                 res.statusCode = 404
                 break;            
         }
